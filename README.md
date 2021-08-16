@@ -193,9 +193,12 @@ User Stories
   - Then: no changes are done to the project data
   - And: the non-editable Projects page is displayed
 
-Diagrams
+## Diagrams
 
-Business Requirements
+- https://app.diagrams.net/#G1CTJ8f8_j3y0gu7oeIBnFHdZyheCJktMv
+
+## Business Requirements
+
 Allow a user to manage a home page via an admin app so they can perform CRUD operations.
 
 Technical Requirements

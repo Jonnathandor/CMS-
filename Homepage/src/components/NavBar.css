@@ -1,0 +1,61 @@
+.nav {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+
+.nav__logo img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.nav__menuItems {
+  flex-basis: 30%;
+}
+
+.nav__menuItems ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__menuItems-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__menuItems-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#menu__item-primary {
+  color: #310a90;
+}
+
+.nav__curriculum {
+  background: #310a90;
+  padding: 15px;
+  border: 2px solid #310a90;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.nav__repoCurriculum {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}

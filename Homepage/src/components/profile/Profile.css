@@ -1,0 +1,46 @@
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+
+.profile__description {
+  flex-basis: 40%;
+}
+
+.profile__description-greeting h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 39px;
+  color: #310a90;
+}
+
+.profile__description-greeting p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 59px;
+  line-height: 75px;
+  letter-spacing: -0.005em;
+  color: #310a90;
+}
+
+.profile__description ul {
+  display: flex;
+}
+
+.profile__description ul li {
+  background: white;
+  padding: 10px;
+  border: 2px solid #310a90;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.profile__picture img {
+  width: 500px;
+  height: 504px;
+  border-radius: 24px;
+}

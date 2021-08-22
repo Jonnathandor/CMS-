@@ -1,4 +1,4 @@
-import { NavBar, Profile } from './components'
+import { NavBar, Profile, ProjectList } from './components'
 import './App.css'
 export const App = () => {
 
@@ -6,6 +6,7 @@ export const App = () => {
     <div className="app">
       <NavBar/>
       <Profile/>
+      <ProjectList/>
     </div>
   )
 }

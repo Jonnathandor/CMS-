@@ -1,0 +1,123 @@
+.project {
+  margin-top: 100px;
+}
+
+.project__intro {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.project__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 35%;
+}
+
+.project__content-title {
+  background: #310a90;
+  padding: 4px 8px;
+  box-shadow: -4px 4px 0px #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 45px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.project__content-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.005em;
+  color: #310a90;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project__content-links {
+  display: flex;
+}
+
+.project__content-links div {
+  width: 168px;
+  height: 49px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#production-project {
+  background: #310a90;
+  border: 2px solid #310a90;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+#production-project a {
+  color: white;
+  text-decoration: none;
+}
+
+.project__content-links-link {
+  border: 2px solid #310a90;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+
+.project__content-links-link a {
+  text-decoration: none;
+  color: #310a90;
+}
+
+.project__preview img {
+  width: 652px;
+  height: 392px;
+  border-radius: 20%;
+}
+
+.project__client {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(40px);
+  border-radius: 24px;
+}
+
+.project__client-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 130px;
+}
+
+.project__client-feedback {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 55px;
+  text-align: center;
+  color: #310a90;
+}
+
+.project__client-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+  color: #310a90;
+  opacity: 0.5;
+}

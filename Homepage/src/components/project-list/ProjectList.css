@@ -1,0 +1,22 @@
+.project__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 233px;
+}
+
+.project__list-intro {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 55px;
+  text-align: center;
+  color: #310a90;
+}
+
+#project__list-intro-share {
+  margin-top: 20px;
+  font-weight: bold;
+  line-height: 39px;
+}

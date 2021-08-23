@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  padding: 30px;
+  align-items: center;
+}
+
+.footer__logo img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer__text p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+.footer ul li {
+  background: white;
+  padding: 10px;
+  border: 2px solid #310a90;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 10px;
+}

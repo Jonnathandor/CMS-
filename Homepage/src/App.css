@@ -136,3 +136,9 @@ table {
     ),
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
 }
+
+.app__headerImage {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}

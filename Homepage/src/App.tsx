@@ -15,13 +15,12 @@ export const App = () => {
     setOpenSignIn(true);
   }
 
-  const signIn = async (e: React.MouseEvent<HTMLElement>, isOpen: boolean, email: string, password: string):void => {
+  const signIn = (e: React.MouseEvent<HTMLElement>, isOpen: boolean, email: string, password: string):void => {
     e.preventDefault();
     // We only want to set the user If we have succesful authentication.
     console.log(email, password)
-    await setUser({ email: email, password:password, isLoggedIn:true})
+    setUser({ email: email, password:password, isLoggedIn:true})
     setOpenSignIn(isOpen);
-    console.warn(user);
   } 
 
   const closeModal = (isOpen: boolean):void => {

@@ -3,3 +3,4 @@ export * from './profile/Profile';
 export * from './project-list/ProjectList';
 export * from './contact-form/ContactForm';
 export * from './footer/Footer';
+export * from './login-modal/LoginModal';
